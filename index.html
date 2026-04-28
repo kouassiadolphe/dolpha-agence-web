@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAULO CHAKAL — Contact</title>
+    <title>Paulo Chakal — Site Officiel</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">PAULO CHAKAL</div>
+            <div class="logo">PAULO <span>CHAKAL</span></div>
             <ul class="nav-links">
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="musique.html">Musique</a></li>
+                <li><a href="musique.html">Services</a></li>
                 <li><a href="apropos.html">À propos</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -20,37 +22,65 @@
     </header>
 
     <main>
-        <section class="page-header">
-            <h1>Contact & Booking</h1>
-            <p>Pour toute demande professionnelle</p>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>PAULO <span>CHAKAL</span></h1>
+                <p>Artiste chanteur ivoirien</p>
+                <p class="slogan">La voix qui fait vibrer la Côte d'Ivoire et le monde</p>
+                <a href="musique.html" class="btn">Écouter maintenant</a>
+            </div>
         </section>
 
+        <!-- Section présentation -->
         <section class="section">
             <div class="container">
-                <div class="contact-wrapper">
-                    <div class="contact-info">
-                        <h2>Informations</h2>
-                        <p><strong>📧 Email :</strong> contact@paulochakal.com</p>
-                        <p><strong>📞 Téléphone :</strong> +225 07 XX XX XX XX</p>
-                        <p><strong>📍 Lieu :</strong> Abidjan, Côte d'Ivoire</p>
-                        <div class="social-contact" style="margin-top: 2rem;">
-                            <h3>Suivez-moi</h3>
-                            <div class="listen-buttons" style="margin-top: 1rem;">
-                                <a href="https://open.spotify.com/artist/0RmMqOdyj5lvgDY2GU2R8q" target="_blank" class="btn-small">Spotify</a>
-                                <a href="https://www.deezer.com/fr/artist/106825712" target="_blank" class="btn-small">Deezer</a>
-                                <a href="https://www.youtube.com/channel/UCrx4oCohN1D_DmCh16OACcA" target="_blank" class="btn-small">YouTube</a>
-                            </div>
-                        </div>
+                <h2>Bienvenue sur mon univers musical</h2>
+                <div class="presentation-text">
+                    <p>Paulo Chakal, de son vrai nom <strong>Kadjo Ethyler Paul Eric Michel</strong>, est un artiste chanteur et rappeur ivoirien originaire d'Abidjan.</p>
+                    <p>Sa musique est une fusion unique entre les sonorités traditionnelles ivoiriennes et les rythmes modernes (afrobeat, trap, RnB). Avec plus de <strong>119 872 auditeurs mensuels sur Spotify</strong>, il fait vibrer son public à chaque note.</p>
+                    <p>Authentique, il utilise le <strong>nouchi</strong> (argot ivoirien) dans ses textes, ce qui le connecte profondément à son public.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galerie photos -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2>Galerie</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-card">
+                        <img src="images/paulo-au-studio.jpg" alt="En studio" class="gallery-image">
+                        <p>En studio</p>
                     </div>
-                    <div class="contact-form">
-                        <h2>Envoyez un message</h2>
-                        <form action="#" method="post">
-                            <input type="text" placeholder="Nom complet" required>
-                            <input type="email" placeholder="Email" required>
-                            <input type="tel" placeholder="Téléphone (optionnel)">
-                            <textarea rows="5" placeholder="Votre message" required></textarea>
-                            <button type="submit" class="btn-submit">Envoyer le message</button>
-                        </form>
+                    <div class="gallery-card">
+                        <img src="images/paulo-en-concert.jpg" alt="En concert" class="gallery-image">
+                        <p>En concert</p>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/paulo-portrait.jpg" alt="Portrait" class="gallery-image">
+                        <p>Portrait</p>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/paulo-Backstage.jpg" alt="Backstage" class="gallery-image">
+                        <p>Backstage</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dernier single -->
+        <section class="section">
+            <div class="container">
+                <h2>Dernier single</h2>
+                <div class="single-card">
+                    <h3>"WAKA"</h3>
+                    <p>Sorti le 4 avril 2025</p>
+                    <div class="platforms">
+                        <a href="https://open.spotify.com/artist/0RmMqOdyj5lvgDY2GU2R8q" target="_blank" class="platform-btn">Spotify</a>
+                        <a href="https://www.deezer.com/fr/artist/106825712" target="_blank" class="platform-btn">Deezer</a>
+                        <a href="https://music.apple.com/ca/artist/paulo-chakal/1531475071" target="_blank" class="platform-btn">Apple Music</a>
+                        <a href="https://www.youtube.com/channel/UCrx4oCohN1D_DmCh16OACcA" target="_blank" class="platform-btn">YouTube</a>
                     </div>
                 </div>
             </div>
